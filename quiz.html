@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">  
+    <link rel="" href="">
+</head>
+<body>
+
+    <div id="start-page" class="visible"><br><br>
+        <center><h1>Welcome to the Quiz!</h1></center><br><br>
+        <center><button id="start-btn">Start Quiz</button></center>
+    </div>
+    <!--end-->
+    
+    <div class="box hidden" id="quiz-page">
+        
+        <!-- Extra Ui -->
+        <!-- <div>
+            <H1>Click Play to Play the quiz</H1>
+            <button type="submit" id="playquiz">Play</button>
+        </div> -->
+        <center><h1 style="margin-top: 20px;" >Simple Quiz</h1></center><br>
+        <hr style="width: 80%; margin-left: 50px;"><br>
+        <h3 style="margin-left: 40px;" id="question">1.This is question 1</h3><br>
+        <div id="mainanswer">
+        <button type="button" class="choose" id="hov"> Answer 1</button><br>
+        <button type="button" class="choose"> Answer 2</button><br>
+        <button type="button" class="choose"> Answer 3</button><br>
+        <button type="button" class="choose"> Answer 4</button><br>
+    </div>
+        <button type="submit" id="next">Next</button><br><br>
+
+        <p style="color: gray; margin-left: 255px; font-size: 10px;" id="numb">1 of 5 question</p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
